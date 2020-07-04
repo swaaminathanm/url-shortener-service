@@ -1,0 +1,18 @@
+{
+  "name": "key-generation-service",
+  "version": "1.0.0",
+  "description": "Key generation service that generated ans stores unique keys in a database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "Swaminathan Muthuveerappan",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.10",
+    "redis": "^3.0.2"
+  }
+}
